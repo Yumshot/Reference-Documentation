@@ -71,3 +71,12 @@ function updateRecords(object, id, prop, value) {
 }
 
 updateRecords(collection, 5439, 'artist', 'ABBA');
+---
+// Setup
+var myArray = [];
+var x = 5;
+while(x >= 0) {
+    myArray.push(x);
+    x--;
+    console.log(myArray)
+}
